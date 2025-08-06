@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinéfilo IA</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <img src="./assets/logo.png" alt="Logo Universo pipoca">
+    </header>
+
+    <main>
+        <section>
+            <div>
+                <h2> Cinéfilo IA 🎬</h2>
+                <p> Pergunte o que quiser sobre filmes em nosso catálogo! </p>
+                <form id="form">
+                    <input id="apiKey" type="password" placeholder="Informe a API KEY do Gemini" required>
+                    <select id="filmSelect">
+                        <option value="">Selecione um filme</option>
+                        <option value="Duro de Matar">Duro de Matar</option>
+                        <option value="Um Sonho de Liberdade">Um Sonho de Liberdade</option>
+                        <option value="O Silêncio dos Inocentes">O Silêncio dos Inocentes</option>
+                    </select>
+                    <input  id="questionInput" placeholder="Ex: Sinopse, principais atores, classificação da crítica..." required>
+                    <button id="askButton">
+                        Perguntar
+                    </button>
+                </form>
+                <div id="aiResponse" class="hidden">
+                    <div class="reponse-content">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="  https://unpkg.com/showdown/dist/showdown.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
