@@ -1,5 +1,5 @@
 ## Projeto feito a partir do evento NLW Agents - Trilha iniciante da Rocketseat.
-- Chave API: AIzaSyAem6U2lZC7CAcPNHwK4OEnH0xyiilUdvo
+- Chave API: 
 - Link: https://juliaas47.github.io/Projeto_NLW/
 
 **Ideia principal do projeto:**
@@ -11,4 +11,5 @@
    - "Quais são os principais atores do filme?"
    - "Qual a principal mensagem do filme?"
  
+
 
